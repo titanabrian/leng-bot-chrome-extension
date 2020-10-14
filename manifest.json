@@ -1,0 +1,11 @@
+{
+  "name": "Leng Bot",
+  "version": "1.0",
+  "description": "Just for fun bot extesnsion. NSFW",
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["jquery.js","index.js", "toastify.js"],
+    "css": ["toastify.min.css"]
+  }],
+  "manifest_version": 2
+}
